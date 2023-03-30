@@ -1,5 +1,7 @@
 import React from 'react';
+import Book from '../assets/book.jpg';
 import WorkImg from '../assets/work1.jpg';
+import IceCream from '../assets/icecream.jpg';
 import Coffee from '../assets/coffee.jpg';
 
 const Work = () => {
@@ -16,7 +18,7 @@ const Work = () => {
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 					{/* grid-item */}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${Book})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
@@ -25,18 +27,18 @@ const Work = () => {
 								React JS Aplication
 							</span>
 							<div className="pt-8 text-center">
-								<a href="/">
+								<a href="https://demchenk0.github.io/BooksProject/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
-                      bg-white text-gray-700 font-bold text-lg"
+                    bg-white text-gray-700 font-bold text-lg"
 									>
 										Demo
 									</button>
 								</a>
-								<a href="/">
+								<a href="https://github.com/Demchenk0/BooksProject">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
-                      bg-white text-gray-700 font-bold text-lg"
+                    bg-white text-gray-700 font-bold text-lg"
 									>
 										Code
 									</button>
@@ -45,7 +47,7 @@ const Work = () => {
 						</div>
 					</div>
 					<div
-						style={{ backgroundImage: `url(${Coffee})` }}
+						style={{ backgroundImage: `url(${IceCream})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
@@ -54,7 +56,7 @@ const Work = () => {
 								React JS Aplication
 							</span>
 							<div className="pt-8 text-center">
-								<a href="/">
+								<a href="https://demchenk0.github.io/IceCream/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -62,7 +64,7 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="/">
+								<a href="https://github.com/Demchenk0/IceCream">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
