@@ -45,7 +45,7 @@ const Navbar = () => {
 
 			{/* Burget */}
 			<div onClick={handleClick} className="md:hidden z-10">
-				{!nav ? <FaBars /> : <FaTimes />}
+				{!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
 			</div>
 			{/* Mobile Menu */}
 			<ul
@@ -85,6 +85,11 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <div className={!nav
+            ? 'hidden'
+            : 'flex fixed flex-col'}>
+				<img src={Logo} alt="Logo" style={{ width: '100px' }} />
+			</div>
 			{/* Social Icon */}
 			<div className="hidden lg:flex fixed flex-col top-[35%] left-0 ">
 				<ul>
