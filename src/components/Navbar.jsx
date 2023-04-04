@@ -88,7 +88,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-2xl'>
-        <div className='pt-12'>
+          <div className='pt-12'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
                 Let&#39;s Connect
               </p>
