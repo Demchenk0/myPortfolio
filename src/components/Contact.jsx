@@ -4,7 +4,6 @@ import ContactImg from '../assets/contact.jpg';
 const Contact = () => {
 	return (
 		<div className="w-full h-full  text-gray-300 bg-[#0a192f] ">
-			<div id="contact" className="w-full lg:h-screen">
 				<div className="max-w-[1000px]  m-auto px-2 py-16 w-full text-[#ccd6f6] ">
 					<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
 						Contact
@@ -16,7 +15,7 @@ const Contact = () => {
 							<div className="lg:p-4 h-full  ">
 								<div>
 									<img
-										className="rounded-xl  hover:scale-105 ease-in duration-300"
+										className="rounded-xl"
 										src={ContactImg}
 										alt="/"
 									/>
@@ -34,40 +33,31 @@ const Contact = () => {
 
 						{/* Right */}
 						<div className="col-span-3 w-full h-auto lg:p-4">
-							<div name="contact" className="p-4">
+							<div name="contact"  className="p-4">
 								<form
 									method="POST"
 									action="https://getform.io/f/b9f9619b-f219-4330-8531-1d8ad1344d29"
 									className="flex flex-col max-w-[500px] w-full"
 								>
-									{/* <div className="pb-8">
-									<p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
-										Contact
-									</p>
-									<p className="text-gray-300 py-4">
-										{' '}
-										* You can contact me by filling out this form{' '}
-									</p>
-								</div> */}
 									<input
-										className=" bg-[#ccd6f6] p-2"
+										className=" bg-[#ccd6f6] p-2 text-black"
 										type="text"
 										placeholder="Name"
 										name="name"
 									/>
 									<input
-										className="my-4 p-2 bg-[#ccd6f6]"
+										className="my-4 p-2 bg-[#ccd6f6] text-black"
 										type="email"
 										placeholder="Email"
 										name="email"
 									/>
 									<textarea
-										className="bg-[#ccd6f6] p-2"
+										className="bg-[#ccd6f6] p-2 text-black"
 										name="message"
 										rows="10"
 										placeholder="Message"
 									></textarea>
-									<button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+									<button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center duration-300">
 										Let's Collaborate{' '}
 									</button>
 								</form>
@@ -75,7 +65,6 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	);
 };
