@@ -84,6 +84,50 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li className='py-6 text-4xl'>
+        <div className='pt-10'>
+              <p className='uppercase tracking-widest text-[#5651e5]'>
+                Let&#39;s Connect
+              </p>
+              <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                <a
+                  href='/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <FaLinkedin />
+                  </div>
+                </a>
+                <a
+                  href='/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <FaGithub />
+                  </div>
+                </a>
+                <Link to='contact'>
+                  <div
+                    onClick={() => setNav(!nav)}
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                  >
+                    <FaGithub />
+                  </div>
+                </Link>
+                <Link href='/resume'>
+                  <div
+                    onClick={() => setNav(!nav)}
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                  >
+                    <FaGithub />
+                  </div>
+                </Link>
+              </div>
+            </div>
+        </li>
+
       </ul>
       <div className={!nav
             ? 'hidden'
