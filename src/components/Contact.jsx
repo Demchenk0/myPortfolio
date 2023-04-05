@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaGithub, FaLinkedin } from 'react-icons/fa';
 import ContactImg from '../assets/contact.jpg';
 
 const Contact = () => {
@@ -28,7 +29,47 @@ const Contact = () => {
 										me and let&apos;s talk.
 									</p>
 								</div>
+                <div>
+                <p className='uppercase pt-2'>Connect With Me</p>
+                <div className='flex items-center justify-between p-3'>
+                  <a
+                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <FaLinkedin size={30}/>
+                    </div>
+                  </a>
+                  <a
+                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='p-2 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <FaGithub size={30}/>
+                    </div>
+                  </a><a
+                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='p-2 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <FaGithub size={30}/>
+                    </div>
+                  </a><a
+                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='p-2 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <FaGithub size={30}/>
+                    </div>
+                  </a>
+                </div>
+              </div>
 							</div>
+              
 						</div>
 
 						{/* Right */}
