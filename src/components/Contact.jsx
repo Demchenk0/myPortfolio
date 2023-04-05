@@ -33,7 +33,7 @@ const Contact = () => {
                 <p className='uppercase pt-2'>Connect With Me</p>
                 <div className='flex items-center justify-between p-3'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/saniok/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -42,7 +42,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/saniok/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -50,7 +50,7 @@ const Contact = () => {
                       <FaGithub size={30}/>
                     </div>
                   </a><a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/saniok/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -58,7 +58,7 @@ const Contact = () => {
                       <FaGithub size={30}/>
                     </div>
                   </a><a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/saniok/'
                     target='_blank'
                     rel='noreferrer'
                   >
