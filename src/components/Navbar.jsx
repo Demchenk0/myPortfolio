@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+// import { HiOutlineMail } from 'react-icons/hi';
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/do2.png';
 import { Link } from 'react-scroll';
@@ -126,7 +126,7 @@ const Navbar = () => {
 				<img src={Logo} alt="Logo" style={{ width: '100px' }} />
 			</div>
 			{/* Social Icon */}
-			<div className="hidden lg:flex fixed flex-col top-[35%] left-0 ">
+			{/* <div className="hidden lg:flex fixed flex-col top-[35%] left-0 ">
 				<ul>
 					<li className="w-[160px] h-[60] flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 ">
 						<a
@@ -156,7 +156,7 @@ const Navbar = () => {
 						</a>
 					</li>
 				</ul>
-			</div>
+			</div> */}
 		</div>
 	);
 };
