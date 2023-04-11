@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin,  } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { HiOutlineMail } from 'react-icons/hi';
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/do2.png';
@@ -92,32 +93,32 @@ const Navbar = () => {
 							Let&#39;s Connect
 						</p>
 						<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-							<a href="/" target="_blank" rel="noreferrer">
+							<a href="https://www.linkedin.com/in/saniok/" target="_blank" rel="noreferrer">
 								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
 									<FaLinkedin />
 								</div>
 							</a>
-							<a href="/" target="_blank" rel="noreferrer">
+							<a href="https://github.com/Demchenk0" target="_blank" rel="noreferrer">
 								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
 									<FaGithub />
 								</div>
 							</a>
-							<Link to="contact">
+							<a href="https://drive.google.com/file/d/1nTVLfLViRXcAnIrnopmEds_0QdKRYtLE/view?usp=share_link" target="_blank" rel="noreferrer">
 								<div
 									onClick={() => setNav(!nav)}
 									className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
 								>
 									<FaGithub />
 								</div>
-							</Link>
-							<Link href="/resume">
+							</a>
+							<a href="https://drive.google.com/file/d/1nTVLfLViRXcAnIrnopmEds_0QdKRYtLE/view?usp=share_link" target="_blank" rel="noreferrer">
 								<div
 									onClick={() => setNav(!nav)}
-									className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+									className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 "
 								>
-									<FaGithub />
+									<BsFillPersonLinesFill  />
 								</div>
-							</Link>
+							</a>
 						</div>
 					</div>
 				</li>
@@ -162,3 +163,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+// https://drive.google.com/file/d/1nTVLfLViRXcAnIrnopmEds_0QdKRYtLE/view?usp=share_link

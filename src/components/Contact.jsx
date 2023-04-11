@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import ContactImg from '../assets/contact.jpg';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Contact = () => {
@@ -58,19 +59,19 @@ const Contact = () => {
 										</div>
 									</a>
 									<a
-										href="https://www.linkedin.com/in/saniok/"
+										href="https://drive.google.com/file/d/1nTVLfLViRXcAnIrnopmEds_0QdKRYtLE/view?usp=share_link"
 										target="_blank"
 										rel="noreferrer"
 									>
 										<div className="p-2 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
-											<FaGithub size={30} />
+											<BsFillPersonLinesFill size={30} />
 										</div>
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
-
+          
 					{/* Right */}
 					<div className="col-span-3 w-full h-auto lg:p-4">
 						<div name="contact" className="p-4">
