@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTelegramPlane } from 'react-icons/fa';
 import ContactImg from '../assets/contact.jpg';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -50,12 +50,12 @@ const Contact = () => {
 										</div>
 									</a>
 									<a
-										href="https://www.linkedin.com/in/saniok/"
+										href="https://t.me/OJIeksandr"
 										target="_blank"
 										rel="noreferrer"
 									>
 										<div className="p-2 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
-											<FaGithub size={30} />
+											<FaTelegramPlane size={30} />
 										</div>
 									</a>
 									<a

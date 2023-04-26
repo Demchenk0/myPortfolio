@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin,  } from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTelegramPlane,  } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { HiOutlineMail } from 'react-icons/hi';
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -103,12 +103,12 @@ const Navbar = () => {
 									<FaGithub />
 								</div>
 							</a>
-							<a href="https://drive.google.com/file/d/1nTVLfLViRXcAnIrnopmEds_0QdKRYtLE/view?usp=share_link" target="_blank" rel="noreferrer">
+							<a href="https://t.me/OJIeksandr" target="_blank" rel="noreferrer">
 								<div
 									onClick={() => setNav(!nav)}
 									className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
 								>
-									<FaGithub />
+									<FaTelegramPlane />
 								</div>
 							</a>
 							<a href="https://drive.google.com/file/d/1nTVLfLViRXcAnIrnopmEds_0QdKRYtLE/view?usp=share_link" target="_blank" rel="noreferrer">
