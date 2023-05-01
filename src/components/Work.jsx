@@ -4,7 +4,8 @@ import WorkImg from '../assets/work1.jpg';
 import IceCream from '../assets/icecream.jpg';
 import Coffee from '../assets/coffee.jpg';
 import Filmoteka from '../assets/filmoteka.jpg';
-import PhotoProject from '../assets/photoProject.jpg'
+import PhotoProject from '../assets/photoProject.jpg';
+import PhotoTest from '../assets/photoTest.jpg';
 
 const Work = () => {
 	return (
@@ -59,9 +60,7 @@ const Work = () => {
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://demchenk0.github.io/IceCream/">
-									<button
-										className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
-									>
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Demo
 									</button>
 								</a>
@@ -135,7 +134,7 @@ const Work = () => {
 						</div>
 					</div>{' '}
 					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
+						style={{ backgroundImage: `url(${PhotoTest})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
@@ -144,7 +143,7 @@ const Work = () => {
 								React JS Aplication
 							</span>
 							<div className="pt-8 text-center">
-								<a href="/">
+								<a href="https://lively-daifuku-588b66.netlify.app/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -152,7 +151,7 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="/">
+								<a href="https://github.com/Demchenk0/testsoftryzen">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
