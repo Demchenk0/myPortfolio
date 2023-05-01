@@ -1,6 +1,5 @@
 import React from 'react';
 import Book from '../assets/book.jpg';
-import WorkImg from '../assets/work1.jpg';
 import IceCream from '../assets/icecream.jpg';
 import Coffee from '../assets/coffee.jpg';
 import Filmoteka from '../assets/filmoteka.jpg';
