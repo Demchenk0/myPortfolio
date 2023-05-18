@@ -5,6 +5,7 @@ import Coffee from '../assets/coffee.jpg';
 import Filmoteka from '../assets/filmoteka.jpg';
 import PhotoProject from '../assets/photoProject.jpg';
 import PhotoTest from '../assets/photoTest.jpg';
+import DashBoard from '../assets/dashboard.jpg';
 
 const Work = () => {
 	return (
@@ -162,7 +163,7 @@ const Work = () => {
 						</div>
 					</div>
 					<div
-						style={{ backgroundImage: `url(${Coffee})` }}
+						style={{ backgroundImage: `url(${DashBoard})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
@@ -171,7 +172,7 @@ const Work = () => {
 								React JS Aplication
 							</span>
 							<div className="pt-8 text-center">
-								<a href="/">
+								<a href="https://idyllic-pixie-b72dee.netlify.app/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -179,7 +180,7 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="/">
+								<a href="https://github.com/Demchenk0/UserDashboard">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"

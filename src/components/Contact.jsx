@@ -71,7 +71,6 @@ const Contact = () => {
 							</div>
 						</div>
 					</div>
-          
 					{/* Right */}
 					<div className="col-span-3 w-full h-auto lg:p-4">
 						<div name="contact" className="p-4">
