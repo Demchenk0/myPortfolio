@@ -38,8 +38,8 @@ const Contact = () => {
 								<img className="rounded-xl" src={ContactImg} alt="/" />
 							</div>
 							<div>
-								<h2 className="py-2">Clint Briley</h2>
-								<p>Front-End Developer</p>
+								<h2 className="py-2">Oleksandr Demchenko</h2>
+								<p>Full Stack Developer</p>
 								<p className="py-4">
 									I am available for freelance or full-time positions. Contact
 									me and let&apos;s talk.
@@ -62,7 +62,7 @@ const Contact = () => {
 										target="_blank"
 										rel="noreferrer"
 									>
-										<div className="p-2 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
+										<div className="p-3 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
 											<FaGithub size={30} />
 										</div>
 									</a>
@@ -71,7 +71,7 @@ const Contact = () => {
 										target="_blank"
 										rel="noreferrer"
 									>
-										<div className="p-2 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
+										<div className="p-3 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
 											<FaTelegramPlane size={30} />
 										</div>
 									</a>
@@ -80,7 +80,7 @@ const Contact = () => {
 										target="_blank"
 										rel="noreferrer"
 									>
-										<div className="p-2 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
+										<div className="p-3 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
 											<BsFillPersonLinesFill size={30} />
 										</div>
 									</a>
