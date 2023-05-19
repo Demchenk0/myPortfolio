@@ -6,6 +6,23 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Contact = () => {
+  window.addEventListener('scroll', function() {
+    const headerHeight = 150;
+    const scrollIcon = document.querySelector('.scroll-icon');
+    
+    if (window.pageYOffset >= headerHeight) {
+      scrollIcon.classList.remove('invisible');
+      scrollIcon.classList.remove('opacity-0');
+      scrollIcon.classList.add('visible');
+      scrollIcon.classList.add('opacity-100');
+    } else {
+      scrollIcon.classList.remove('visible');
+      scrollIcon.classList.remove('opacity-100');
+      scrollIcon.classList.add('invisible');
+      scrollIcon.classList.add('opacity-0');
+    }
+  });
+
 	return (
 		<div className="w-full h-full  text-gray-300 bg-[#0a192f] ">
 			<div className="max-w-[1000px]  m-auto px-2 py-16 w-full text-[#ccd6f6] ">
@@ -103,24 +120,23 @@ const Contact = () => {
 							</form>
 						</div>
 					</div>
-          </div>
-					<div className="flex justify-center py-12">
-						<Link to="home" smooth={true} duration={500}>
-							<a
-								href="https://www.linkedin.com/in/saniok/"
-								target="_blank"
-								rel="noreferrer"
-							>
-								<div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-									<HiOutlineChevronDoubleUp
-										className="text-[#5651e5]"
-										size={20}
-									/>
-								</div>
-							</a>
-						</Link>
-					</div>
-				
+				</div>
+				<div className="flex justify-center py-12">
+					<Link to="home" smooth={true} duration={500}>
+						<a
+							href="https://www.linkedin.com/in/saniok/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in scroll-icon fixed bottom-0 right-0 mb-4 mr-4 transform transition-opacity opacity-0 invisible">
+								<HiOutlineChevronDoubleUp
+									className="text-[#61f64a]"
+									size={20}
+								/>
+							</div>
+						</a>
+					</Link>
+				</div>
 			</div>
 		</div>
 	);
