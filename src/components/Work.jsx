@@ -24,9 +24,11 @@ const Work = () => {
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
-						<div className=" opacity-0 group-hover:opacity-100">
-							<span className=" text-2xl font-bold text-white tracking-wider">
-								React JS Aplication
+						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+							<span className=" text-base font-medium  text-white tracking-wider">
+								This project is created for those who like reading books. Simple
+								and easy to use for tracking your reading progress. It was made
+								with JS, npm packages and SCSS
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://demchenk0.github.io/BooksProject/">
@@ -53,9 +55,11 @@ const Work = () => {
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
-						<div className=" opacity-0 group-hover:opacity-100">
-							<span className=" text-2xl font-bold text-white tracking-wider">
-								React JS Aplication
+						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+							<span className=" text-base font-medium text-white tracking-wider">
+								This is a business card website for an ice cream manufacturer.
+								Simple and easy-to-use one-page website. It was made using
+								simple HTML and SASS.
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://demchenk0.github.io/IceCream/">
@@ -79,9 +83,11 @@ const Work = () => {
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
-						<div className=" opacity-0 group-hover:opacity-100">
-							<span className=" text-2xl font-bold text-white tracking-wider">
-								React JS Aplication
+						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+							<span className=" text-base font-medium text-white tracking-wider">
+								Project about searching movies, and adding favorite movies to a
+								client personal library. Role: Scrum master. Using pure JS,
+								npm-packages and SCSS
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://demchenk0.github.io/Filmoteka/">
@@ -108,9 +114,9 @@ const Work = () => {
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
-						<div className=" opacity-0 group-hover:opacity-100">
-							<span className=" text-2xl font-bold text-white tracking-wider">
-								React JS Aplication
+						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+							<span className=" text-base font-medium text-white tracking-wider">
+							Project site gallery for personal photos. Using next.js, npm packages and Tailwind CSS.
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://my-photo-project.netlify.app">
@@ -137,9 +143,9 @@ const Work = () => {
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
-						<div className=" opacity-0 group-hover:opacity-100">
-							<span className=" text-2xl font-bold text-white tracking-wider">
-								React JS Aplication
+						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+							<span className=" text-base font-medium text-white tracking-wider">
+							This one-page website was a test task that was successfully completed. It was made with React, npm packages and SCSS
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://lively-daifuku-588b66.netlify.app/">
@@ -166,9 +172,9 @@ const Work = () => {
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
-						<div className=" opacity-0 group-hover:opacity-100">
-							<span className=" text-2xl font-bold text-white tracking-wider">
-								React JS Aplication
+						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+							<span className=" text-base font-medium text-white tracking-wider">
+							This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://idyllic-pixie-b72dee.netlify.app/">
