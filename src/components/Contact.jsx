@@ -6,22 +6,22 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 const Contact = () => {
-  window.addEventListener('scroll', function() {
-    const headerHeight = 150;
-    const scrollIcon = document.querySelector('.scroll-icon');
-    
-    if (window.pageYOffset >= headerHeight) {
-      scrollIcon.classList.remove('invisible');
-      scrollIcon.classList.remove('opacity-0');
-      scrollIcon.classList.add('visible');
-      scrollIcon.classList.add('opacity-100');
-    } else {
-      scrollIcon.classList.remove('visible');
-      scrollIcon.classList.remove('opacity-100');
-      scrollIcon.classList.add('invisible');
-      scrollIcon.classList.add('opacity-0');
-    }
-  });
+	window.addEventListener('scroll', function () {
+		const headerHeight = 150;
+		const scrollIcon = document.querySelector('.scroll-icon');
+
+		if (window.pageYOffset >= headerHeight) {
+			scrollIcon.classList.remove('invisible');
+			scrollIcon.classList.remove('opacity-0');
+			scrollIcon.classList.add('visible');
+			scrollIcon.classList.add('opacity-100');
+		} else {
+			scrollIcon.classList.remove('visible');
+			scrollIcon.classList.remove('opacity-100');
+			scrollIcon.classList.add('invisible');
+			scrollIcon.classList.add('opacity-0');
+		}
+	});
 
 	return (
 		<div className="w-full h-full  text-gray-300 bg-[#0a192f] ">
@@ -76,7 +76,7 @@ const Contact = () => {
 										</div>
 									</a>
 									<a
-										href="https://drive.google.com/file/d/15xe7tj1L9cnkMxOyCBsRlhqUSaXW6x1y/view?usp=sharing"
+										href="https://drive.google.com/file/d/1RKb2kN74h9XSaofDB7tCaeRVk6FvJBmY/view?usp=drive_link"
 										target="_blank"
 										rel="noreferrer"
 									>
