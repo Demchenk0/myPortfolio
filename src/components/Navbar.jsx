@@ -12,11 +12,11 @@ const Navbar = () => {
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
 			<Link to="home" smooth={true} duration={500}>
-				<div>
+				<div className='cursor-pointer'>
 					<img src={Logo} to="home" alt="Logo" style={{ width: '100px' }} />
 				</div>
 			</Link>
-
+			
 			{/* Menu */}
 			<ul className="hidden md:flex ">
 				<li className="hover:scale-105 hover:duration-300 ">

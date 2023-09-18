@@ -8,6 +8,10 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import Mongo from '../assets/mongo.png';
 import SCSS from '../assets/scss.png';
+import Tailwind from '../assets/tailwind.png';
+import Next from '../assets/next.png';
+import Rest from '../assets/rest.png';
+import Vite from '../assets/vite.png';
 
 const Skills = () => {
 	return (
@@ -54,10 +58,22 @@ const Skills = () => {
 						<img className="w-20 mx-auto" src={SCSS} alt="HTML icon" />
 						<p className="my-4">SASS</p>
 					</div>
-					{/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-						<img className="w-20 mx-auto" src={FireBase} alt="HTML icon" />
-						<p className="my-4">FIREBASE</p>
-					</div> */}
+					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+						<p className="my-4">Tailwind</p>
+					</div>
+					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Next} alt="HTML icon" />
+						<p className="my-4">Next.JS</p>
+					</div>
+					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Rest} alt="HTML icon" />
+						<p className="my-4">Rest API</p>
+					</div>
+					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+						<img className="w-20 mx-auto" src={Vite} alt="HTML icon" />
+						<p className="my-4">Vite</p>
+					</div>
 				</div>
 			</div>
 		</div>
