@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Book from '../assets/book.jpg';
 import IceCream from '../assets/icecream.jpg';
-// import Filmoteka from '../assets/filmoteka.jpg';
-// import PhotoProject from '../assets/photoProject.jpg';
-// import PhotoTest from '../assets/photoTest.jpg';
-// import DashBoard from '../assets/dashboard.jpg';
+import Filmoteka from '../assets/filmoteka.jpg';
+import PhotoProject from '../assets/photoProject.jpg';
+import PhotoTest from '../assets/photoTest.jpg';
+import DashBoard from '../assets/dashboard.jpg';
 
 // const Work = () => {
 // 	return (
@@ -217,47 +217,47 @@ const Work = () => {
 			title: 'Назва проекту 1',
 			image: Book,
 			description:
-				'This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.',
-			demoLink: 'https://idyllic-pixie-b72dee.netlify.app/',
-			codeLink: 'https://github.com/Demchenk0/UserDashboard',
+				'This project is created for those who like reading books. Simple and easy to use for tracking your reading progress. It was made with JS, npm packages and SCSS',
+			demoLink: 'https://demchenk0.github.io/BooksProject/',
+			codeLink: 'https://github.com/Demchenk0/BooksProject',
 		},
 		{
 			title: 'Назва проекту 1',
 			image: IceCream,
 			description:
-				'This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.',
-			demoLink: 'https://idyllic-pixie-b72dee.netlify.app/',
-			codeLink: 'https://github.com/Demchenk0/UserDashboard',
+				'This is a business card website for an ice cream manufacturer. Simple and easy-to-use one-page website. It was made using simple HTML and SASS.',
+			demoLink: 'https://demchenk0.github.io/IceCream/',
+			codeLink: 'https://github.com/Demchenk0/IceCream',
 		},
 		{
 			title: 'Назва проекту 1',
-			image: Book,
+			image: Filmoteka,
 			description:
-				'This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.',
-			demoLink: 'https://idyllic-pixie-b72dee.netlify.app/',
-			codeLink: 'https://github.com/Demchenk0/UserDashboard',
+				'Project about searching movies, and adding favorite movies to a client personal library. Role: Scrum master. Using pure JS, npm-packages and SCSS',
+			demoLink: 'https://demchenk0.github.io/Filmoteka/',
+			codeLink: 'https://github.com/Demchenk0/Filmoteka',
 		},
 		{
 			title: 'Назва проекту 1',
-			image: IceCream,
+			image: PhotoProject,
 			description:
 				'This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.',
-			demoLink: 'https://idyllic-pixie-b72dee.netlify.app/',
-			codeLink: 'https://github.com/Demchenk0/UserDashboard',
+			demoLink: 'https://my-photo-project.netlify.app',
+			codeLink: 'https://github.com/Demchenk0/myPhoto',
 		},
 		{
 			title: 'Назва проекту 1',
-			image: Book,
+			image: PhotoTest,
 			description:
-				'This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.',
-			demoLink: 'https://idyllic-pixie-b72dee.netlify.app/',
-			codeLink: 'https://github.com/Demchenk0/UserDashboard',
+				'This one-page website was a test task that was successfully completed. It was made with React, npm packages and SCSS.',
+			demoLink: 'https://lively-daifuku-588b66.netlify.app/',
+			codeLink: 'https://github.com/Demchenk0/testsoftryzen',
 		},
 		{
 			title: 'Назва проекту 1',
-			image: IceCream,
+			image: DashBoard,
 			description:
-				'This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.',
+				'This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS',
 			demoLink: 'https://idyllic-pixie-b72dee.netlify.app/',
 			codeLink: 'https://github.com/Demchenk0/UserDashboard',
 		},
@@ -310,9 +310,7 @@ const Work = () => {
 										</button>
 									</a>
 									<a href={project.codeLink}>
-										<button
-											className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
-										>
+										<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 											Code
 										</button>
 									</a>
@@ -321,9 +319,14 @@ const Work = () => {
 						</div>
 					))}
 				</div>
-						{projectsToShow < projects.length && (
-							<button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300 w-60 justify-center m-auto" onClick={showMoreProjects}>Показати більше</button>
-						)}
+				{projectsToShow < projects.length && (
+					<button
+						className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300 w-60 justify-center m-auto"
+						onClick={showMoreProjects}
+					>
+						Load more
+					</button>
+				)}
 			</div>
 		</div>
 	);
