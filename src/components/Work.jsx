@@ -5,6 +5,8 @@ import Filmoteka from '../assets/filmoteka.jpg';
 import PhotoProject from '../assets/photoProject.jpg';
 import PhotoTest from '../assets/photoTest.jpg';
 import DashBoard from '../assets/dashboard.jpg';
+import DashTremor from '../assets/dashboardTremor.jpg';
+import Weather from '../assets/weather.jpg';
 
 // const Work = () => {
 // 	return (
@@ -263,11 +265,19 @@ const Work = () => {
 		},
 		{
 			title: 'Назва проекту 1',
-			image: Book,
+			image: Weather,
 			description:
-				'This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.',
-			demoLink: 'https://idyllic-pixie-b72dee.netlify.app/',
-			codeLink: 'https://github.com/Demchenk0/UserDashboard',
+				'This is a simple website for viewing the weather around the world.	Created with Next.js and some npm packages and SASS styles. ',
+			demoLink: 'https://weathersitemap.netlify.app/',
+			codeLink: 'https://github.com/Demchenk0/weather',
+		},
+		{
+			title: 'Назва проекту 1',
+			image: DashTremor,
+			description:
+				'This website is designed for financial income control. It was made with React+Vite, npm packages such as Tremor and styles TailWind. ',
+			demoLink: 'https://dashboardvite.netlify.app/',
+			codeLink: 'https://github.com/Demchenk0/DashboardVite',
 		},
 		// Додавайте інші об'єкти проектів
 	];
