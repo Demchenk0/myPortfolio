@@ -24,7 +24,7 @@ const Contact = () => {
 	});
 
 	return (
-		<div className="w-full h-full  text-gray-300 bg-[#0a192f] ">
+		<div className="w-full h-full  text-gray-300 bg-[#0a192f] md:pt-16">
 			<div className="max-w-[1000px]  m-auto px-2 py-16 w-full text-[#ccd6f6] ">
 				<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
 					Contact
